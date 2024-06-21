@@ -1,0 +1,32 @@
+//contactos
+@media (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
+    }
+    .contact-form, .contact-info {
+        width: 100%;
+    }
+}
+
+
+//banner
+@media (max-width: 768px) {
+    .main-container {
+        top: 0%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main-container {
+        top: 0%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        padding: 15px;
+    }
+}
